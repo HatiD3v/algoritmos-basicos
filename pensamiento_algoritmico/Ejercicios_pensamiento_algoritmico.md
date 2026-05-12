@@ -84,6 +84,42 @@ Si no Solicitar nuevamente el ingreso de PIN
 
 ## Ejercicio 4 - Preparar una arepa
 
+- *Identificar*
+- Entrada: Bowl, Harina, Agua, Sal, Budare, Cocina, Gas, Platos, Cubiertos, Relleno de arepa
+- Proceso: Mezclar, Cocinar, Rellenar, Servir
+- Salida: Arepa lista para comer
+
+```dart
+Buscar Bowl, Harina, Sal, Budare, Platos y Cubiertos en la despensa de la cocina
+Buscar Agua
+Si hay Agua entonces
+    Llenar Bowl de agua
+    Verter cantidad de Harina en Bowl
+    Verter pizca de Sal al gusto
+    Mezclar ingredientes hasta formar una mezcla homogenea.
+Si no hay Agua entonces
+    Comprar agua para poder hacer arepas
+Validar si hay Gas si hay entonces
+    Agarrar Budare
+    Colocar Budare en la hornilla
+    Prender hornilla
+    Dejar que el Budare caliente Si el Budare esta caliente entonces
+        Agarrar Bowl con la mezcla
+        Agarrar porcion de mezcla
+        Hacer la forma de la arepa
+        Colocar arepa en el Budare
+        Esperar que se cocine
+        Si la arepa ya esta cocinada Entonces Buscar Platos y Cubiertos
+        Agarrar cubierto abrir arepa
+        Caminar a la nevera
+        Buscar Relleno de arepa
+        Caminar a la mesa
+        Agarrar Relleno de arepa y Rellenar arepa
+        arepa lista para comer
+    Si el budare no esta caliente entonces
+        Esperar que caliente
+```
+
 ## Ejercicio 5 - Entrar a una cuenta online
 
 ## Ejercicio 6 - Cruzar una calle
