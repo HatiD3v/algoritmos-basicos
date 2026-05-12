@@ -122,6 +122,29 @@ Validar si hay Gas si hay entonces
 
 ## Ejercicio 5 - Entrar a una cuenta online
 
+- *Identificar*
+- Entrada = Laptop, Correo, Contraseña, Internet
+- Proceso = validar pila de laptop, Correo y Contraseña validos, Si hay internet
+- Salida = LogIn en la cuenta
+
+```dart
+Buscar Laptop
+Validar Si tiene bateria si no tiene entonces
+    Verificar si hay electricidad si hay entonces
+    Cargar bateria de laptop
+    Encender Laptop
+    Validar si tiene internet si tiene entonces
+        Ingresar a pagina web
+        Seleccionar boton de LogIn
+        Si Correo y Contrasena son correctos entonces
+            Conceder acceso a usuario
+        Si no son correctos entonces
+            Mostrar error de Correo o Contrasena erroneos
+Si no hay electricidad entonces
+    Esperar al restablecimiento de luz
+
+```
+
 ## Ejercicio 6 - Cruzar una calle
 
 ## Ejercicio 7 - Hacer una compra de supermercado
