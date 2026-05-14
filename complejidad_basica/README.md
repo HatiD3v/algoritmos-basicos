@@ -73,7 +73,7 @@ Quieres comparar:
 - Preguntas
   - ¿Cuál parece lineal?
   - ¿Cuál parece cuadrático?
-  
+
 ### Ejercicio 5
 
 - **Imagina:**
