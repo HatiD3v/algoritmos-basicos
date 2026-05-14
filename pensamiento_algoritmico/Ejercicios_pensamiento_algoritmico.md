@@ -142,15 +142,136 @@ Validar Si tiene bateria si no tiene entonces
             Mostrar error de Correo o Contrasena erroneos
 Si no hay electricidad entonces
     Esperar al restablecimiento de luz
-
 ```
 
 ## Ejercicio 6 - Cruzar una calle
 
+- *Identificar*
+- Entrada = Luz de semaforo, Estatus del trafico, Cruzar
+- Proceso = Validar semaforo y el estatus de trafico para poder cruzar
+- Salida = Cruzar calle
+
+```dart
+Como hacemos este ejercicio, pensemos como lo hariamos en la vida real, que decisiones tomamos, que condiciones de seguridad existen, que acciones tomar
+caminamos hasta el extremo de la calle donde este el rallado y el semaforo
+esperamos el momento correcto en que la luz del semaforo cambie a color rojo y esperar que los automoviles bajen la velocidad y frenen
+ya al tener estas dos condiciones cruzamos hasta la proxima calle y asi logramos nuestro objetivo. veamos como nos sale en pseudocodigo
+
+Leer caminar
+Leer semaforo
+Leer estatus de trafico
+
+Inicio
+Caminar hasta el extremo de la calle donde se ubica el rallado
+Observar semaforo hasta cambiar luces
+Si semaforo cambia la luz a rojo y el estado del trafico es de automoviles frenados Entonces
+    cruzar la calle hasta llegar a la proxima acera
+Sino si el semaforo cambio a rojo y el estado del trafico es autos en movimiento Entonces
+    no cruzar la calle
+Si no si las luces del semaforo son diferente a rojo Entonces
+    no cruzar la calle
+Fin
+```
+
 ## Ejercicio 7 - Hacer una compra de supermercado
+
+- *Identificar*
+- Entrada = compras, dinero, supermercado
+- Proceso = validar si estan todos los productos, validar que el saldo en la cuenta sea mayor que el monto
+- Salida = Compra de supermercado
+
+```dart
+Pensemos de forma manual y humana de como realizamos una compra en el supermercado
+Conducir o Caminar hasta el supermercado, ingresar al super, agarrar carrito de compras, buscar productos de la lista de compras e incorporar al carrito de compras si ya tenemos toda la lista de comprasta ready entonces pasamos al area de facturacion, damos los productos a ser escaneados nos indican el total pagamos, guardamos los productos en bolsas y salimos.
+
+Leer Lista de Compras, Dinero, Supermercado
+Conducir hasta el Supermercado
+Entrar al Supermercado
+Buscar carro de compras
+Buscar productos de la Lista de Compras
+Lista de compras esta completa?
+Si esta completa Entonces
+    Caminar con el Carrito hasta el area de facturacion
+    Colocar productos en la cinta corredera para ser escaneados
+    Cajera indica el monto si el saldo en la cuenta es mayor al monto de factura Entonces
+    Proceder con la compra
+    Si no retirar algunos productos hasta que el monto de factura sea menor al saldo en la cuenta
+    Facturar guardar productos en bolsa y salir del Super
+Si no entonces reemplazar producto faltante por otro producto Entonces
+    Caminar con el Carrito hasta el area de facturacion
+    Colocar productos en la cinta corredera para ser escaneados
+    Cajera indica el monto si el saldo en la cuenta es mayor al monto de factura Entonces
+    Proceder con la compra
+    Si no retirar algunos productos hasta que el monto de factura sea menor al saldo en la cuenta
+    Facturar guardar productos en bolsa y salir del Super
+Fin
+Este ejercicio se pudo desglozar en partes aun mas pequeñas y precisas
+```
 
 ## Ejercicio 8 - Encender una computadora
 
+- *Identificar*
+- Entrada = Energia, PC, Caminar
+- Proceso = hay energia, pc conectada a toma corriente, encender pc
+- Salida = PC encendida
+
+```dart
+Leer PC, Energia, Caminar
+Caminar hasta la ubicacion de la Pc si la Pc no tiene energia Entonces
+    Validar si esta conectada al toma Corriente si lo esta pero no tiene energia Entonces
+    falta Energia electrica para poder encender Pc
+Sino si tiene Energia Entonces 
+    encender Pc y Pantalla
+```
+
 ## Ejercicio 9 - Pedir comida por delivery
 
+- *Identificar*
+- Entrada = Tlf, Aplicacion
+- Proceso = LogIn, Establecimiento, Ubicacion, Seleccionar comida, Pagar, Establecimiento valida el pago, Esperar tiempo de llegada
+- Salida = Llegada de la comida
+
+```dart
+Pensemos como ocurre todo este proceso manualmente.
+Agarramos nuestro telefono validamos que tengamos wifi o datos moviles, buscamos la aplicacion de delivery la seleccionamos e ingresamos nuestro usuario, en el buscador o menu seleccionamos la comida que nos guste, seleccionamos la cantidad procedemos a clickear el boton de pago luego pagamos, el establecimiento valida el pago, procesa a darnos un numero de pedido, realizan la elaboracion del platillo luego entregan al delivery y se debe esperar la llegada a la direccion dada
+
+Leemos como entrada: Tlf, Aplicacion,
+Si tlf tiene bateria y wifi o datos moviles Entonces
+    Buscar aplicacion de delivery y seleccionar 
+Si no hay app Entonces
+    descargar app de delivery
+Si existe la app Entonces
+    LogIn a la aplicacion
+    Buscar establecimiento y seleccionar menu/comida seleccionar cantidad de platos
+    Seleccionar boton de pago y proceder con el pago
+    Establecimiento valida el pago
+    Establecimiento nos da un numero de pedido
+    Realizan la elaboracion del platillo
+    Entregan al delivery
+    Esperar llegada del delivery a la ubicacion
+Fin
+
+```
+
 ## Ejercicio 10 - Organizar una mochila
+
+- *Identificar*
+- Entrada = Mochila, Items
+- Proceso = Guardar items en mochila
+- Salida = Mochila organizada
+  
+```dart
+Que requerimos para organizar una mochila? pues la mochila y los items que vamos a organizar dentro de ella.
+Decidimos guardar los items por volumente del mas grande al mas pequeño llevando un orden logico como productos menos fragiles a fragiles en caso de que sea valida esta condicion
+Si no cabe un producto lo dejamos afuera y buscamos donde guardarlo
+
+Leer mochila e items
+Agarrar mochila
+Buscar items
+Guardar items
+Ordenar items en mochila de mayor a menor
+Si el item no cabe en la mochila Entonces
+    Buscar otra ubicacion
+Fin
+
+```
