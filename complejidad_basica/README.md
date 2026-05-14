@@ -87,3 +87,16 @@ Quieres comparar:
     - O(n) seguidamente este empeora por ser lineal y crecer en proporcion a los datos
     - O(n²) Este empeora mas rapido por ser cuadratico
   - ¿En cuál empezarías a notar lentitud real?
+
+### Ejercicio mental importante
+
+- **Sin programar todavía:**
+  - Piensa cómo resolverías:
+    - buscar una persona = algoritmo O(1)
+    - ordenar cartas = algoritmo O(n)
+    - encontrar duplicados = algoritmo O(n2)
+
+Y pregúntate:
+“¿Estoy haciendo trabajo innecesario?”
+
+Ese pensamiento es la base de optimización.
