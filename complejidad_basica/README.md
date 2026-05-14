@@ -43,6 +43,47 @@ Quieres comparar:
 - cada estudiante con todos los demas
 
 - **Preguntas**
-  - Cuantas comparaciones empiezan a aparecer? = Se deben hacer 2 comparaciones 
-  - Esto parece crecer rapido o lento?
-  - Que complejidad sospechos?
+  - Cuantas comparaciones empiezan a aparecer? = Se deben hacer 2 comparaciones, por que? como lo indica tengo 100 estudiantes y debo comparar cada estudiante con los demas, es decir tomo al primer estudiante y los comparos con el restante, tomo el segundo estudiante y compraro con el resto y asi se repite el ciclo, ya esto seria un ciclo anidado por que? por que agarramos el primer dato que es el estudiante y luego se realiza la comparacion este seria el segundo bucle, al terminar la comparacion incrementamos en 1+ la iteracion del primer bucle y asi vamos.
+  - Esto parece crecer rapido o lento? crece lentamente
+  - Que complejidad sospecho? Complejidad O(n2)
+
+### Ejercicio 3
+
+- **Solución A**
+  - Revisar toda la lista aunque ya encontraste el elemento. Esta parece mas eficiente ya que revisa toda la lista.
+
+- **Solución B**
+  - Detenerse apenas lo encuentras. Esta hace menos trabajo ya que se detiene al encontrar el dato.
+
+- **Preguntas**
+  - ¿Cuál hace menos trabajo?
+  - ¿Cuál parece más eficiente?
+
+### Ejercicio 4
+
+- **Situación**
+  - Quieres encontrar el mayor número.
+
+- Método A
+  - Comparar cada número una sola vez. Esta el lineal por que estamos comparando cada numero una sola vez. O(n) es decir el trabajo crecera en proporcion a la cantidad de datos
+
+- Método B
+  - Comparar todos contra todos. este es cuadratico de O(n2) por que comparamos todos los numeros contra todos
+
+- Preguntas
+  - ¿Cuál parece lineal?
+  - ¿Cuál parece cuadrático?
+  
+### Ejercicio 5
+
+- **Imagina:**
+  - 10 elementos
+  - 100 elementos
+  - 10,000 elementos
+
+- Preguntas
+  - ¿Qué algoritmo empeora MÁS rápido?
+    - O(1) por ultimo el constante la cantidad de trabajo no cambia asi se encuentren mas datos
+    - O(n) seguidamente este empeora por ser lineal y crecer en proporcion a los datos
+    - O(n²) Este empeora mas rapido por ser cuadratico
+  - ¿En cuál empezarías a notar lentitud real?
