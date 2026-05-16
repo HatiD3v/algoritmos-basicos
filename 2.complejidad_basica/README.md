@@ -95,8 +95,3 @@ Quieres comparar:
     - buscar una persona = algoritmo O(1)
     - ordenar cartas = algoritmo O(n)
     - encontrar duplicados = algoritmo O(n2)
-
-Y pregúntate:
-“¿Estoy haciendo trabajo innecesario?”
-
-Ese pensamiento es la base de optimización.
