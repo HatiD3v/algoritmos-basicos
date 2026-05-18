@@ -56,4 +56,18 @@ Como pensar en una variable? piensa en: que informacion necesito recordar?
 
 ### Ejercicio 1 - Sumar numeros
 
-- Objetivo: tienes varios numeros y quieres obtener el total
+### Ejercicio 2 — Contar letras
+
+### Ejercicio 3 — Contar vocales
+
+### Ejercicio 4 — Promedio de notas
+
+### Ejercicio 6 — Sumar solo positivos
+
+### Ejercicio 7 — Contar palabras largas
+
+### Ejercicio 8 — Concatenar nombres
+
+### Ejercicio 9 — Encontrar mayor número
+
+### Ejercicio 10 — Contar repeticiones de una letra
