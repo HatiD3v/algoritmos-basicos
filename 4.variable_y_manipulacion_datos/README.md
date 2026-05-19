@@ -54,6 +54,8 @@ Como pensar en una variable? piensa en: que informacion necesito recordar?
 
 ## Practicas guiadas
 
+### Cada ejercicio de practica tendra su propio file donde se realizara el ejercicio
+
 ### Ejercicio 1 - Sumar numeros
 
 ### Ejercicio 2 — Contar letras
