@@ -72,6 +72,6 @@ Como pensar en una variable? piensa en: que informacion necesito recordar?
 
 ### Ejercicio 8 — Concatenar nombres [x]
 
-### Ejercicio 9 — Encontrar mayor número
+### Ejercicio 9 — Encontrar mayor número [x]
 
 ### Ejercicio 10 — Contar repeticiones de una letra
