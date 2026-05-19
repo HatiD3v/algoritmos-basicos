@@ -70,7 +70,7 @@ Como pensar en una variable? piensa en: que informacion necesito recordar?
 
 ### Ejercicio 7 — Contar palabras largas [x]
 
-### Ejercicio 8 — Concatenar nombres
+### Ejercicio 8 — Concatenar nombres [x]
 
 ### Ejercicio 9 — Encontrar mayor número
 
