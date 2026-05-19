@@ -56,19 +56,19 @@ Como pensar en una variable? piensa en: que informacion necesito recordar?
 
 ### Cada ejercicio de practica tendra su propio file donde se realizara el ejercicio
 
-### Ejercicio 1 - Sumar numeros
+### Ejercicio 1 - Sumar numeros [x]
 
-### Ejercicio 2 — Contar letras
+### Ejercicio 2 — Contar letras [x]
 
-### Ejercicio 3 — Contar vocales
+### Ejercicio 3 — Contar vocales [x]
 
-### Ejercicio 4 — Promedio de notas
+### Ejercicio 4 — Promedio de notas [x]
 
-### Ejercicio 5 — Contar números pares
+### Ejercicio 5 — Contar números pares [x]
 
-### Ejercicio 6 — Sumar solo positivos
+### Ejercicio 6 — Sumar solo positivos [x]
 
-### Ejercicio 7 — Contar palabras largas
+### Ejercicio 7 — Contar palabras largas [x]
 
 ### Ejercicio 8 — Concatenar nombres
 
