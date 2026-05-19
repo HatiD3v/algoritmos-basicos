@@ -64,6 +64,8 @@ Como pensar en una variable? piensa en: que informacion necesito recordar?
 
 ### Ejercicio 4 — Promedio de notas
 
+### Ejercicio 5 — Contar números pares
+
 ### Ejercicio 6 — Sumar solo positivos
 
 ### Ejercicio 7 — Contar palabras largas
