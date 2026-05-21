@@ -30,4 +30,15 @@ Un promedio comunmente necesita un acumulador y contador
 
 ### Practicas
 
-- Ejercicio 1 — Mayor número en una lista - Objetivo: encontrar el numero mas grande [x]
+|   Nivel    |          Descripción        | Estado |
+|------------|-----------------------------|--------|
+|Ejercicio 1 |  Mayor número en una lista  |   []   |
+|Ejercicio 2 |  Menor número en una lista  |   []   |
+|Ejercicio 3 |    Filtrar números pares    |   []   |
+|Ejercicio 4 |    Filtrar números impares  |   []   |
+|Ejercicio 5 |      Promedio de notas      |   []   |
+|Ejercicio 6 | Buscar un número específico |   []   |
+|Ejercicio 7 |       Contar aprobados      |   []   |
+|Ejercicio 8 |       Contar aprobados      |   []   |
+|Ejercicio 9 |   Sumar solo números pares  |   []   |
+|Ejercicio 10|       Buscar duplicados     |   []   |
