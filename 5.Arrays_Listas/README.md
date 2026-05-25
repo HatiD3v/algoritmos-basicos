@@ -38,7 +38,7 @@ Un promedio comunmente necesita un acumulador y contador
 |Ejercicio 4 |    Filtrar números impares  |   [x]  |
 |Ejercicio 5 |      Promedio de notas      |   [x]  |
 |Ejercicio 6 | Buscar un número específico |   [x]  |
-|Ejercicio 7 |       Contar aprobados      |   [ ]  |
+|Ejercicio 7 |       Contar aprobados      |   [x]  |
 |Ejercicio 8 |       Contar aprobados      |   [ ]  |
 |Ejercicio 9 |   Sumar solo números pares  |   [ ]  |
 |Ejercicio 10|       Buscar duplicados     |   [ ]  |
