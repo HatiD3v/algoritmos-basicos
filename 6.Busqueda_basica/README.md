@@ -17,7 +17,7 @@ Esta revisa elemento por elemento
 
 |   Nivel    |          Descripción        | Estado |
 |------------|-----------------------------|--------|
-|Ejercicio 1 |    Búsqueda lineal simple   |   [ ]  |
-|Ejercicio 2 |     Elemento inexistente    |   [ ]  |
+|Ejercicio 1 |    Búsqueda lineal simple   |   [x]  |
+|Ejercicio 2 |     Elemento inexistente    |   [x]  |
 |Ejercicio 3 |       Buscar repetidos      |   [ ]  |
 |Ejercicio 4 |   Simulación manual binaria |   [ ]  |
