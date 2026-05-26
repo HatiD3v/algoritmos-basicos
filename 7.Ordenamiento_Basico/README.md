@@ -29,7 +29,7 @@ Para ambas se deben preguntar que condicion define el orden correcto
 
 |   Nivel    |          Descripción        | Estado |
 |------------|-----------------------------|--------|
-|Ejercicio 1 |    Orden manual ascendente  |   [ ]  |
+|Ejercicio 1 |    Orden manual ascendente  |   [x]  |
 |Ejercicio 2 |   Orden manual descendente  |   [ ]  |
 |Ejercicio 3 |      Simular Bubble Sort    |   [ ]  |
 |Ejercicio 4 |     Detectar intercambio    |   [ ]  |
