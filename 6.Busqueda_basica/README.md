@@ -19,5 +19,5 @@ Esta revisa elemento por elemento
 |------------|-----------------------------|--------|
 |Ejercicio 1 |    Búsqueda lineal simple   |   [x]  |
 |Ejercicio 2 |     Elemento inexistente    |   [x]  |
-|Ejercicio 3 |   Simulación manual binaria |   [ ]  |
+|Ejercicio 3 |   Simulación manual binaria |   [x]  |
 |Ejercicio 4 |       Buscar repetidos      |   [ ]  |
