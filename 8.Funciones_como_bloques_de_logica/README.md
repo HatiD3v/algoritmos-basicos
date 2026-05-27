@@ -33,7 +33,7 @@
 
 |   Nivel    |          Descripción        | Estado |
 |------------|-----------------------------|--------|
-|Ejercicio 1 |  Convertir suma en función  |   [ ]  |
+|Ejercicio 1 |  Convertir suma en función  |   [x]  |
 |Ejercicio 2 |    Función mayor número     |   [ ]  |
 |Ejercicio 3 |    Función contar vocales   |   [ ]  |
 |Ejercicio 4 |    Modularizar calculador   |   [ ]  |
