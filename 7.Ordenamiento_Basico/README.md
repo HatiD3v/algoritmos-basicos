@@ -32,5 +32,4 @@ Para ambas se deben preguntar que condicion define el orden correcto
 |Ejercicio 1 |    Orden manual ascendente  |   [x]  |
 |Ejercicio 2 |   Orden manual descendente  |   [x]  |
 |Ejercicio 3 |      Simular Bubble Sort    |   [x]  |
-|Ejercicio 4 |     Detectar intercambio    |   [ ]  |
-|Ejercicio 5 |    Simular Selection Sort   |   [ ]  |
+|Ejercicio 4 |    Simular Selection Sort   |   [x]  |
