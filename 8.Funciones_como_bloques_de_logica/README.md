@@ -36,7 +36,7 @@
 |Ejercicio 1 |  Convertir suma en función  |   [x]  |
 |Ejercicio 2 |    Función mayor número     |   [x]  |
 |Ejercicio 3 |    Función contar vocales   |   [x]  |
-|Ejercicio 4 |    Modularizar calculador   |   [ ]  |
+|Ejercicio 4 |    Modularizar calculador   |   [x]  |
 |Ejercicio 5 |    Función validar edad     |   [ ]  |
 |Ejercicio 6 | Separar lógica del promedio |   [ ]  |
 |Ejercicio 7 |    Función buscar elemento  |   [ ]  |
