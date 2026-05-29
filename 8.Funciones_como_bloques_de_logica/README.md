@@ -38,6 +38,6 @@
 |Ejercicio 3 |    Función contar vocales   |   [x]  |
 |Ejercicio 4 |    Modularizar calculador   |   [x]  |
 |Ejercicio 5 |    Función validar edad     |   [x]  |
-|Ejercicio 6 | Separar lógica del promedio |   [ ]  |
+|Ejercicio 6 | Separar lógica del promedio |   [x]  |
 |Ejercicio 7 |    Función buscar elemento  |   [ ]  |
 |Ejercicio 8 |        Modularizar menú     |   [ ]  |
